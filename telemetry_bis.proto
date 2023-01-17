@@ -70,6 +70,8 @@ message TelemetryField {
     float          float_value = 12;
   }
   repeated TelemetryField fields = 15;
+  // set only for delete event
+  bool           delete = 16;
 }
 
 /*
